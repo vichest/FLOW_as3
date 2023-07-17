@@ -1,0 +1,5 @@
+import assignment from 0x01
+pub fun main():{String:assignment.details}
+{
+    return assignment.MyDictionary
+}
