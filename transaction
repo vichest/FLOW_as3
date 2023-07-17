@@ -1,0 +1,12 @@
+import assignment from 0x01
+transaction(name : String,id: UInt,age:UInt,eligible:String)
+{
+  prepare(acct: AuthAccount)
+  {
+
+  }
+  execute
+  {
+    assignment.addFunction(name: name, id: id, age: age, eligible: eligible)
+  }
+}
